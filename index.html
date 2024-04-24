@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta pagina es una prueba">
+    <meta name="keywords" content="perfumes y todas las palabras claves">
+    <meta name="author" content="Diego">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +17,15 @@
 <body>
     <div class="contenedor-principal">  
         <header>           
-            <nav>  
-                <i class="nav__menu--logo fa-solid fa-bars"></i> 
+            <nav>
+                <input type="checkbox" id="open-menu">  
+                <label for="open-menu" class="header__open-menu-button" role="button">
+                    <i class="nav__menu--logo fa-solid fa-bars"></i> 
+                </label>
+    
                 <div class="menu">
                     <ul class="menu-item">
-                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#" rel="noopenner noreferrer nofollow" target="_blank">Inici</a></li>
                         <li><a href="#">Perfumeria</a></li>
                         <li><a href="#">Cuidado personal</a></li>
                         <li><a href="#">Belleza</a></li>
@@ -26,13 +33,13 @@
                         <li><a href="#">Hogar</a></li>
                         <li><a href="#">Art. de limpieza</a></li>
                         <li><a href="#">Ofertas</a></li>
-                        <li><a href="#">Contactenos</a></li>
+                        <li><a href="mailto:prueba@gmai.com">Contactenos</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="header__seccioncentro"> 
                 <div class="header__seccioncentro--contenedormarca">
-                    <a href="http://facebook.com" target="_blank" class="facebook" >
+                    <!--<a href="http://facebook.com" target="_blank" class="facebook" >
                         <i class="iconofacebook fa-brands fa-facebook-f"></i>
                     </a>
                     <a href="http://instagram.com" target="_blank" class="instagram">
@@ -41,7 +48,7 @@
                     <a href="httl://whatsapp.com" target="_blanks" class="whatsapp"> 
                         <i class="iconowhatsapp fa-brands fa-whatsapp"></i>
                     </a>
-                    <span class="numerowhatsapp">087515861</span>
+                    <span class="numerowhatsapp">087515861</span>-->
                     <h1 class="header__seccioncentro--h1">Lira</h1>
                 </div>
                 <div class="header__seccioncentro--contenedorbusqueda">
@@ -72,13 +79,21 @@
             </div>
         </aside>
         <main>
-            <div class="main__item"><a href="#">Perfumeria</a></div>
-            <div class="main__item"><a href="#">Cuidado personal</a></div>
-            <div class="main__item"><a href="#">Belleza</a></div>
-            <div class="main__item"><a href="#">Bebes y mamas</a></div>
-            <div class="main__item"><a href="#">Hogar</a></div>
-            <div class="main__item"><a href="#">Art. de limpieza</a></div>
-            <div class="main__item"><a href="#">Ofertas</a></div>
+            <div class="main__conteiner">
+                <div class="main__item">
+                    <img class="main__item--perfume" src="img/perfumes.jpg" alt="">
+                    <h3>Perfumes</h3>
+                    <p> Los mejores perfumes para que disfrutes.</p>
+                    <a href="#" >Ir</a></div>
+                <div class="main__item"><a href="#">Cuidado personal</a></div>
+                <div class="main__item"><a href="#">Belleza</a></div>
+                <div class="main__item"><a href="#">Bebes y mamas</a></div>
+                <div class="main__item"><a href="#">Hogar</a></div>
+                <div class="main__item"><a href="#">Art. de limpieza</a></div>
+                <div class="main__item"><a href="#">Ofertas</a></div>
+                <div class="main__item"><a href="#">Ofertas</a></div>
+            </div>
+
         </main>
         <footer>          
             <div class="footer__izq">
